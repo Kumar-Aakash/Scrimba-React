@@ -1,0 +1,14 @@
+.header {
+    background-color: #F55A5A;
+    color: #fff;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
+.headerText {
+    position: relative;
+    top: 6px;
+    margin-left: 10px;
+}

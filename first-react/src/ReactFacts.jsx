@@ -3,6 +3,7 @@ import reactLogo from "../src/assets/react.svg";
 function ReactFacts() {
 
     return (
+        // <> This is called React Fragment for grouping some code together.
         <>
             <div>
                 <img className="logo-margin" src={reactLogo} width="40" alt="React Logo" />
