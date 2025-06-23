@@ -1,10 +1,12 @@
 import Header from "./components/Header";
+import Entry from "./components/Entry";
 import "./Journal.css";
 
 function Journal() {
     return (
-        <div className="header">
+        <div>
             <Header />
+            <Entry />
         </div>
     )
 }

@@ -2,8 +2,9 @@ import globeImg from "../assets/globe.svg";
 
 function Header() {
     return (
-        <header>
-            <img src={globeImg} alt="Globe" width="25" /> <h1 className="headerText">My Travel Journal</h1>
+        <header className="header">
+            <img src={globeImg} alt="Globe" width="25" />
+            <h1 className="headerText">My Travel Journal</h1>
         </header>
     )
 }
